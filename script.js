@@ -1,6 +1,10 @@
 var input = document.querySelector('input');
 var button = document.getElementById('btn');
 var ul = document.querySelector('ul');
+var Delete=document.getElementById('Deleteid')
+
+
+
 
 
 function todo() {
@@ -29,3 +33,4 @@ function inputentered(event) {
 button.addEventListener('click', todo)
 
 input.addEventListener('keypress', inputentered)
+
